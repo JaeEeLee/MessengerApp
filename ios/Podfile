@@ -12,6 +12,8 @@ target 'MessengerApp' do
     :hermes_enabled => false
   )
 
+  pod 'RealmJS', :path => '../node_modules/realm'
+
   target 'MessengerAppTests' do
     inherit! :complete
     # Pods for testing
